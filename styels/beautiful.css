@@ -82,7 +82,7 @@ main {
 
 /* about section styles */
 .about {
-    margin-top: 130px;
+    margin-top: 70px;
     text-align: center;
     background-color: #FFF8F3;
     border-radius: 10px;
@@ -118,9 +118,10 @@ main {
 }
 
 /* what i do section */
-.what-i-do{
+.what-i-do {
     margin-top: 130px;
 }
+
 .what-i-do-description {
     margin-bottom: 50px;
     color: #757575;
@@ -150,7 +151,59 @@ main {
 .skill-description {
     color: #757575;
 }
+
 /* resume styles */
-.section-title{
+.section-title {
     margin-top: 130px;
+    gap: 24px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .titel {
+    color: #474747;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume .sub-titel {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contract section */
+.contract{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contract .section-title{
+    text-align:left;
+}
+.contract input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contract a{
+    text-decoration: none;
 }
